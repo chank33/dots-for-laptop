@@ -1,0 +1,24 @@
+2025-09-02 23:43:49.523 [info] Extension host with pid 6659 started
+2025-09-02 23:43:49.523 [info] Skipping acquiring lock for /home/k/.config/Code - OSS/User/workspaceStorage/9e2c7974bfec5d3c00f7b6b9781b53f4.
+2025-09-02 23:43:49.572 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-02 23:43:49.588 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-09-02 23:43:49.975 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-02 23:43:49.980 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2025-09-02 23:43:49.987 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-09-02 23:43:49.987 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2025-09-02 23:43:49.989 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: true, activationEvent: 'workspaceContains:README.md'
+2025-09-02 23:43:50.067 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2025-09-02 23:43:50.073 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-02 23:43:50.104 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-02 23:43:50.190 [info] Eager extensions activated
+2025-09-02 23:43:50.200 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.202 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.216 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.222 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.230 [info] ExtensionService#_doActivateExtension bierner.emojisense, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.239 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.264 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.314 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.335 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-09-02 23:43:50.499 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-09-02 23:43:50.521 [warning] DiagnosticCollection with name 'eslint' does already exist.

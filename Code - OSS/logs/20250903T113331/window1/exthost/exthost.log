@@ -1,0 +1,42 @@
+2025-09-03 11:33:32.488 [info] Extension host with pid 251923 started
+2025-09-03 11:33:32.523 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-09-03 11:33:32.539 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-09-03 11:33:32.548 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-09-03 11:33:32.611 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-09-03 11:33:32.630 [info] ExtensionService#_doActivateExtension yzhang.markdown-all-in-one, startup: false, activationEvent: 'onLanguage:markdown'
+2025-09-03 11:33:32.757 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: yzhang.markdown-all-in-one
+2025-09-03 11:33:32.877 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-09-03 11:33:32.878 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2025-09-03 11:33:32.885 [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+2025-09-03 11:33:32.886 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2025-09-03 11:33:32.891 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-09-03 11:33:32.923 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-09-03 11:33:33.009 [info] Eager extensions activated
+2025-09-03 11:33:33.010 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.012 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.028 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.031 [info] ExtensionService#_doActivateExtension alefragnani.Bookmarks, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.038 [info] ExtensionService#_doActivateExtension bierner.emojisense, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.046 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.071 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.119 [info] ExtensionService#_doActivateExtension Gruntfuggly.todo-tree, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.138 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2025-09-03 11:33:33.303 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2025-09-03 11:44:26.369 [info] Extension host terminating: renderer closed the MessagePort
+2025-09-03 11:44:26.375 [error] An error occurred when disposing the subscriptions for extension 'Gruntfuggly.todo-tree':
+2025-09-03 11:44:26.375 [error] AggregateError: Encountered errors while disposing of store
+	at Bi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:822)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:15158
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:25:1056
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+	at LZ.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:12031)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+	at Array.map (<anonymous>)
+	at LZ.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+	at LZ.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+	at E3.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+	at ws (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:388:10154)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:388:6693)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-09-03 11:44:26.376 [info] Extension host with pid 251923 exiting with code 0

@@ -1,0 +1,17 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   README.md
+#	new file:   index.html
+#	modified:   recipes/ragu.html
+#
+Ragu recipe page complete.
+
+all elements and attributes were added
+from memory, didn't need to check the internet.
+only reviewed the project exercise material.

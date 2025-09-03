@@ -1,0 +1,103 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "eec7b30c3ac2e6276f95eec7e233dd6598918a8677aeffe765dbda50eb2b2ea1",
+    "telemetry.devDeviceId": "4202d550-02f1-4b03-be34-1a166bfe4a64",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1756895611996"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/k/Documents/TOP/VsTest": "__default__profile__",
+            "file:///home/k/.config/hypr": "__default__profile__",
+            "file:///home/k/.config": "__default__profile__",
+            "file:///home/k/repos/git_test": "__default__profile__",
+            "file:///home/k/odin-links-and-images": "__default__profile__",
+            "file:///home/k/odin-recipes": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1756895611996": "__default__profile__"
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/k/.config/Code - OSS/Backups/1756895611996",
+            "uiState": {
+                "mode": 1,
+                "x": 3457,
+                "y": 73,
+                "width": 1166,
+                "height": 965
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 202,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "46771669dd42bca8374d81b1090ccdde": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "12d215e892d91bae6512215368b367c8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2fe21bafca1e0d35d1e1e123d9486786": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e48c855163fb212e9c4ed407055e59fb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "4d3e59a55460894a506d16d9d75c1346": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "9e2c7974bfec5d3c00f7b6b9781b53f4": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

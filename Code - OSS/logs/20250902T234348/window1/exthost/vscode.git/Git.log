@@ -1,0 +1,32 @@
+2025-09-02 23:43:50.199 [info] [main] Log level: Info
+2025-09-02 23:43:50.199 [info] [main] Validating found git in: "git"
+2025-09-02 23:43:50.199 [info] [main] Using git "2.51.0" from "git"
+2025-09-02 23:43:50.199 [info] [Model][doInitialScan] Initial repository scan started
+2025-09-02 23:43:50.199 [info] > git rev-parse --show-toplevel [4ms]
+2025-09-02 23:43:50.199 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-09-02 23:43:50.199 [info] [Model][openRepository] Opened repository (path): /home/k/odin-recipes
+2025-09-02 23:43:50.199 [info] [Model][openRepository] Opened repository (real path): /home/k/odin-recipes
+2025-09-02 23:43:50.199 [info] [Model][openRepository] Opened repository (kind): repository
+2025-09-02 23:43:50.199 [info] > git rev-parse --show-toplevel [7ms]
+2025-09-02 23:43:50.199 [info] > git config --get commit.template [10ms]
+2025-09-02 23:43:50.200 [info] > git rev-parse --show-toplevel [5ms]
+2025-09-02 23:43:50.200 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-09-02 23:43:50.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [147ms]
+2025-09-02 23:43:50.430 [info] > git status -z -uall [6ms]
+2025-09-02 23:43:50.431 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-09-02 23:43:50.444 [info] > git config --get commit.template [1ms]
+2025-09-02 23:43:50.444 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-09-02 23:43:50.452 [info] > git config --get --local branch.main.vscode-merge-base [5ms]
+2025-09-02 23:43:50.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-09-02 23:43:50.464 [info] > git status -z -uall [4ms]
+2025-09-02 23:43:50.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2025-09-02 23:43:50.469 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-09-02 23:43:50.475 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-09-02 23:43:50.479 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-09-02 23:43:50.483 [info] > git diff --name-status -z --diff-filter=ADMR 2c183e47bb4458689f05a2aeb71206b296266da6...refs/remotes/origin/main [4ms]
+2025-09-02 23:43:50.483 [info] > git diff --name-status -z --diff-filter=ADMR 2c183e47bb4458689f05a2aeb71206b296266da6...refs/remotes/origin/main [1ms]
+2025-09-02 23:43:50.565 [info] > git show --textconv :recipes/ragu.html [5ms]
+2025-09-02 23:43:50.565 [info] > git ls-files --stage -- recipes/ragu.html [1ms]
+2025-09-02 23:43:50.569 [info] > git cat-file -s abf512fe99dac7c1ec7b396a9c4c863acf2c11d2 [1ms]
+2025-09-02 23:43:50.586 [info] > git blame --root --incremental 2c183e47bb4458689f05a2aeb71206b296266da6 -- recipes/ragu.html [1ms]
+2025-09-02 23:43:50.702 [info] > git check-ignore -v -z --stdin [1ms]
